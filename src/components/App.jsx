@@ -7,7 +7,9 @@ function App() {
  return (
   <div> 
    <NavBar/>
-   <OurTeam/>    
+   <div className="row">
+       <OurTeam />   
+   </div>    
   </div>
  );
 }
